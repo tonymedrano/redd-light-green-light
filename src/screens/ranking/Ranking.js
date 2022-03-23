@@ -7,7 +7,7 @@
  * Copyright (c) 2022 Your Company
  */
 
-import { LitElement, html, css } from '../../../node_modules/lit-element/lit-element';
+import { LitElement, html, css } from '../../../node_modules/lit-element/lit-element.js';
 
 const close = "./assets/close.png";
 

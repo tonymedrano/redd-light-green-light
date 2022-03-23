@@ -8,7 +8,7 @@
  */
 
 
-import { LitElement, html, css } from '../../../node_modules/lit-element/lit-element';
+import { LitElement, html, css } from '../../../node_modules/lit-element/lit-element.js';
 
 const mouse = "./assets/mouse.png";
 
