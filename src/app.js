@@ -12,7 +12,7 @@
  * http://polymer.github.io/PATENTS.txt
  */
 
-import { LitElement, html, css } from 'lit-element';
+import { LitElement, html, css } from '../node_modules/lit-element/lit-element';
 
 import '../src/screens/home/Home';
 import '../src/screens/game/Game';
