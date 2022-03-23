@@ -32,6 +32,8 @@ npm run serve
 
 There is a development HTML file located at `/dev/index.html` that you can view at http://localhost:8000/dev/index.html.
 
+Dem: https://tonymedrano.com/red_light_green_light_game/
+
 ## Editing
 
 If you use VS Code, we highly reccomend the [lit-plugin extension](https://marketplace.visualstudio.com/items?itemName=runem.lit-plugin), which enables some extremely useful features for lit-html templates:
