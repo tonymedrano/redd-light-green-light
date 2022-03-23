@@ -104,14 +104,16 @@ export class RankingScreen extends LitElement {
     }
 
     _rankingList() {
-        return this.ranking.map((player, index) => {
-            return html`
-            <tr>
-                <td>${index}</td>
-                <td>${player.user}</td>
-                <td>${player.score}</td>
-            </tr>
-        `});
+        if (this.ranking.length > 0) {
+            return this.ranking.map((player, index) => {
+                return html`
+                <tr>
+                    <td>${index}</td>
+                    <td>${player.user}</td>
+                    <td>${player.score}</td>
+                </tr>
+            `});
+        }
     }
 
     _closeRanking() {

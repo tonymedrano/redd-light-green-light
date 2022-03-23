@@ -123,7 +123,10 @@ export class AppRoot extends LitElement {
   }
 
   _showRankingHandler() {
-    this.scoresList = JSON.parse(localStorage.getItem('ranking'));
+    this.scoresList = JSON.parse(localStorage.getItem('ranking')) || [{
+      user: "no player",
+      score: 0
+    }];
     this.isRanking = !this.isRanking;
   }
 }
