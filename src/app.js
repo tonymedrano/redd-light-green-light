@@ -14,9 +14,9 @@
 
 import { LitElement, html, css } from '../node_modules/lit-element/lit-element.js';
 
-import '../src/screens/home/Home';
-import '../src/screens/game/Game';
-import '../src/screens/ranking/Ranking';
+import './../src/screens/home/Home.js';
+import './../src/screens/game/Game.js';
+import './../src/screens/ranking/Ranking.js';
 
 /**
  * An example element.
